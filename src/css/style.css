@@ -1,0 +1,143 @@
+html{
+    /* background-color: rgb(47, 79, 174); */
+    background: linear-gradient(to bottom, #323fb9, #121212);
+    box-sizing: border-box;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 1rem 1rem 0 1rem;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* height: 100%; */
+}
+nav{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+nav div{
+    text-align: center ;
+    margin-bottom: 1rem;
+}
+.playlist-info p {
+    margin: 2px 0; /* Ajusta o espaçamento entre as tags <p> */
+    padding: 0; /* Remove o padding interno das tags <p> */
+}
+  
+nav img{
+    max-height: 50%;
+    width: auto;
+} 
+.album{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.album img{
+    max-width: 90%;
+    height: auto;
+}
+.music_details{
+    /* border: 1px solid white; */
+    color: white;
+    max-height: 50%;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem ;
+    margin-bottom: 1rem;
+  
+
+}
+.music_details img{
+    
+    max-width: 30%;
+    height: auto;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+.name h1{
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+.name p{
+    font-size: 1.1em;
+    margin-top: 0;
+}
+.set_song{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding-top: .3rem;
+}
+footer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* max-height: 50%; */
+    height: 90px;
+    align-items: flex-end;
+    margin-bottom: 0;
+
+
+ 
+}
+footer img{
+    width: 35px;
+    height: auto;
+    padding-bottom: 1rem;
+}
+.footer_right{
+    justify-content: flex-end;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #progressBar {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #ddd;
+    height: 1px;
+    cursor: pointer;
+  }
+  
+  #progressBar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    border-radius: 50%;
+  }
+  
+  #currentTime, #duration {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+.mais_menos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
